@@ -3,17 +3,19 @@ import React from "react";
 export const Item = (props) => {
     const { name, desc, price, category, image} = props.data;
     return (
-        <div className="item">
+        <div className="menu-item">
             <div className="name">
                 <p>
-                    <b>{name}</b>
+                    <b className="menu-body-title">
+                        {name}
+                    </b>
                 </p>
             </div>
-            <img src={image}></img>
-            <p>
-            costs ${price} - 
-                    {desc}
-                    <i>category: {category}</i> </p>
+
+            <img src={image} className="img-menu"></img>
+            <p className="menu-body-text">
+                {desc}
+            </p>
         </div>
     )
 
