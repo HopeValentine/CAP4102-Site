@@ -2,6 +2,7 @@ import {React} from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/navbar"
+import { Footer } from "./components/footer";
 import Menu from "./pages/menu/menu";
 import Main from "./pages/main/main";
 
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Main/>}/>
           <Route path="/menu" element={<Menu></Menu>}/>
         </Routes>
+        <Footer />
       </Router>
       <div className="link">
         </div>

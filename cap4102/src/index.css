@@ -11,3 +11,153 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #ff8c5c;
+  height: 170px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.navbar-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 30px; 
+}
+
+.navbar-container > * {
+  margin-right: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.img-header-logo {
+  z-index: 1;
+
+  height: 300px;
+  margin-top: 90px; 
+  margin-right: -80px; 
+}
+
+.navbar-links {
+  margin-left: 10px;
+  width: 66%;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; 
+  background-color: #eb2302;
+  border: 10px solid #ebebc7;
+  border-left-color:#eb2302;
+  height: 87px;
+  color: white;
+  font-weight: bold;
+  z-index: 0;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 510px;
+  background-color: #ff8c5c;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.footer-body-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-body-text {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.img-footer-logo {
+  height: 200px; 
+  margin: 15px;
+}
+
+.img-social-media {
+  height: 35px;
+  width: 35px;  
+  margin: 15px;
+}
+
+/* MENU PAGE */
+
+.page-container {
+  background-color: #ff8c5c;
+  margin: 0 auto;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  min-height: 100vh; 
+}
+
+.menu-container {
+  width: 75%;
+}
+
+.menu-header {
+  background-color: #ffffff;
+  background-image: url("./images/noodles.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.menu-header-text {
+  font-size: 100px;
+  color: white;
+  -webkit-text-stroke: 4px #eb2302;}
+
+.menu-body {
+  background-color: #ebebc7;
+  padding: 15px;
+}
+
+.menu-body-title {
+  font-size: 22px;
+}
+
+.menu-body-text {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.menu-items-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  width: 33%;
+}
+
+.img-menu {
+  height: 300px;
+  width: 300px;  
+  border: 5px solid white;
+  border-radius: 50%;
+}
