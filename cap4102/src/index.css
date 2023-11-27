@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ff8c5c;
 }
 
 code {
@@ -15,7 +16,6 @@ code {
 /* NAVBAR */
 
 .navbar {
-  background-color: #ff8c5c;
   height: 170px;
   display: flex; 
   flex-direction: column;
