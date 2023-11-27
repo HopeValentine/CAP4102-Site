@@ -13,6 +13,7 @@ export const Button = (props) => {
     {
         var dest = "/" + props.location
         return (
+          <div className='button-component'>
           <Link className="link" to={dest}>
           <button className='button'>
               <div className='button_internal'>
@@ -20,11 +21,13 @@ export const Button = (props) => {
               </div>
           </button>
           </Link>
+          </div>
         )      
     }
     else
     {
         return (
+            <div className='button-component'>
             <a  href="tel:+14703855531">
                 <button className='button'>
                 <div className='button_internal'>
@@ -32,6 +35,7 @@ export const Button = (props) => {
                 </div>
                 </button>
             </a>
+            </div>
         )
     }
 }
