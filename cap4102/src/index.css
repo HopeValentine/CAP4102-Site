@@ -161,3 +161,37 @@ code {
   border: 5px solid white;
   border-radius: 50%;
 }
+
+/* CONTACT US PAGE */
+
+.contact-container {
+  width: 75%;
+}
+
+.contact-header {
+  background-color: #ffffff;
+  background-image: url("./images/food_truck.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.contact-header-text {
+  font-size: 100px;
+  color: white;
+  -webkit-text-stroke: 4px #eb2302;}
+
+.contact-body {
+  background-color: #ebebc7;
+  padding: 15px;
+}
+
+.contact-body-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
