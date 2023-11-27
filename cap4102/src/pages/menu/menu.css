@@ -1,0 +1,54 @@
+/* MENU PAGE */
+
+.menu-container {
+    width: 75%;
+  }
+  
+  .menu-header {
+    background-color: #ffffff;
+    background-image: url("../../images/noodles.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+  }
+  
+  .menu-header-text {
+    font-size: 100px;
+    color: white;
+    -webkit-text-stroke: 4px #eb2302;}
+  
+  .menu-body {
+    background-color: #ebebc7;
+    padding: 15px;
+  }
+  
+  .menu-body-title {
+    font-size: 22px;
+  }
+  
+  .menu-body-text {
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .menu-items-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .menu-item {
+    width: 33%;
+  }
+  
+  .img-menu {
+    height: 300px;
+    width: 300px;  
+    border: 5px solid white;
+    border-radius: 50%;
+  }
+  

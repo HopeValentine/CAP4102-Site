@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Link, NavLink } from 'react-router-dom';
 import logo from "../images/header_logo_1.png";
 import '../index.css';
 
@@ -11,11 +11,11 @@ export const Navbar = () => {
                 <img src={logo} alt="Logo" className="img-header-logo" />
             </Link>
             <div className="navbar-links">
-                <Link to="/about">ABOUT</Link>
-                <Link to="/menu">MENU</Link>
-                <Link to="/reviews">REVIEWS</Link>
-                <Link to="/directions">DIRECTIONS</Link>
-                <Link to="/contact">CONTACT US</Link>
+                <NavLink to="/about" activeClassName="active-link">ABOUT</NavLink>
+                <NavLink to="/menu" activeClassName="active-link">MENU</NavLink>
+                <NavLink to="/reviews" activeClassName="active-link">REVIEWS</NavLink>
+                <NavLink to="/directions" activeClassName="active-link">DIRECTIONS</NavLink>
+                <NavLink to="/contact" activeClassName="active-link">CONTACT US</NavLink>
             </div>
         </div>
     </div>

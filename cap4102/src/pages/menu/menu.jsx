@@ -1,6 +1,6 @@
 import { ITEMS } from "../../components/menu_items";
 import { Item } from "./menu_item";
-import '../../index.css';
+import "./menu.css"
 
 export default function Menu() {
   const a = "Appetizers";
