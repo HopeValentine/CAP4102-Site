@@ -25,7 +25,7 @@ code {
 
 .navbar-container {
   position: relative;
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -35,12 +35,11 @@ code {
 
 .navbar-container > * {
   margin-right: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .img-header-logo {
-  position: absolute;
-  top: 90;
-  left: 0;
   z-index: 1;
 
   height: 300px;
@@ -49,7 +48,8 @@ code {
 }
 
 .navbar-links {
-  width: 90%;
+  margin-left: 10px;
+  width: 66%;
   display: flex; 
   flex-direction: row;
   justify-content: space-evenly;
@@ -57,7 +57,7 @@ code {
   background-color: #eb2302;
   border: 10px solid #ebebc7;
   border-left-color:#eb2302;
-  height: 80px;
+  height: 87px;
   color: white;
   font-weight: bold;
   z-index: 0;
