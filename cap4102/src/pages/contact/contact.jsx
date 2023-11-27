@@ -1,6 +1,6 @@
 import instagram from "../../images/instagram.png";
 import facebook from "../../images/facebook.png";
-import '../../index.css';
+import "./contact.css"
 
 export default function ContactUs() {
   return (
