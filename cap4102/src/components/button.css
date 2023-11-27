@@ -1,0 +1,26 @@
+.button{
+    background-color: red;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.button_internal{
+    background-color: red;
+}
+.button:hover{
+    box-shadow: 2px 2px 5px 5px  lightslategrey;
+}
+
+.button:hover .link{
+    color:white;
+
+}
+
+
+.linktext{
+    color:rgba(240, 248, 255, 0.916);
+    font-size: medium;
+}
