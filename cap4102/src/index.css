@@ -37,14 +37,19 @@ code {
   margin-right: 0;
   position: relative;
   z-index: 1;
+  
 }
 
 .img-header-logo {
   z-index: 1;
 
-  height: 300px;
-  margin-top: 90px; 
-  margin-right: -80px; 
+  max-height: 350px;
+  width:100%;
+  height: auto;
+  margin-top: 30%; 
+  margin-right: -50%; 
+  min-height: 200px;
+  min-width: 200px;
 }
 
 .navbar-links {
@@ -61,11 +66,15 @@ code {
   color: white;
   font-weight: bold;
   z-index: 0;
+  font-family: "Bahnschrift";
+  font-weight: bold;
+  color:rgba(240, 248, 255, 0.916);
+  text-decoration: none;
+
+
 }
 
 .active-link {
-  text-decoration: none;
-  color: #fff;
   text-decoration: none;
 }
 

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("BAHNSCHRIFT.TTF");
+}
+
+
 .App {
   text-align: center;
 }

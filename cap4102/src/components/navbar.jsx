@@ -11,11 +11,11 @@ export const Navbar = () => {
                 <img src={logo} alt="Logo" className="img-header-logo" />
             </Link>
             <div className="navbar-links">
-                <NavLink to="/about" activeClassName="active-link">ABOUT</NavLink>
-                <NavLink to="/menu" activeClassName="active-link">MENU</NavLink>
-                <NavLink to="/reviews" activeClassName="active-link">REVIEWS</NavLink>
-                <NavLink to="/directions" activeClassName="active-link">DIRECTIONS</NavLink>
-                <NavLink to="/contact" activeClassName="active-link">CONTACT US</NavLink>
+                <NavLink to="/about" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>ABOUT</NavLink>
+                <NavLink to="/menu" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>MENU</NavLink>
+                <NavLink to="/reviews" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>REVIEWS</NavLink>
+                <NavLink to="/directions" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>DIRECTIONS</NavLink>
+                <NavLink to="/contact" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>CONTACT US</NavLink>
             </div>
         </div>
     </div>
