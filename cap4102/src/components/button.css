@@ -1,10 +1,17 @@
 .button{
     background-color: red;
-    width: 200px;
-    height: 60px;
+    width: 20vw;
+    height: 100%;
     display: flex;
     flex-direction:column;
-    align-items: center;
+    padding-top: 8%;
+    align-items: center middle;
+}
+
+.button-component{
+    height: 100%;
+    max-height: 15vh;;
+
 }
 
 .button_internal{
@@ -22,5 +29,8 @@
 
 .linktext{
     color:rgba(240, 248, 255, 0.916);
-    font-size: medium;
+    font-size:3vmin;
+    font-family: "Bahnschrift";
+    font-weight: bold;
+
 }

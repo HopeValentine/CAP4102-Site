@@ -1,16 +1,31 @@
 .main-container {
-    width: 75%;
     background-color: #ebebc7;
     margin: 0 auto;
+    margin-top: 1%;
     display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: right;  
-  
+    height: auto;
+    width:75vw;
+    display:flex;
+    flex-direction: column;;
+    flex-basis: auto;
+
+}
+
+.main-flex {
+    width:75vw;
+    display:flex;
+    flex-direction: column;;
+    flex-basis: auto;
+    margin-right: auto;
+    
 }
 
 .main-header-text {
     background-color: #ffffff;
+    margin-left:auto;
 
     background-size: cover;
     background-position: center;
@@ -20,18 +35,52 @@
     justify-content: center;
     align-items: center;  
   }
-  
-  .main-header {
-    font-size: 45px;
+  @font-face {
+    font-family: "Bahnschrift";
+    src: url("../../BAHNSCHRIFT.TTF");
+}
+
+ 
+
+.textdiv {
+    width: 75vw;
+    display:flex;
+    padding-top: 8%;
+    margin-left: auto;
+    float: right;
+    margin: 0 5% 0 0;
+    padding: 0 0 6% 0;
+    position: relative;
+}
+
+.main-header {
+    font-size: 5vw;
     color: white;
-    -webkit-text-stroke: 3px #eb2302;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: "Bahnschrift";
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 8px;
+    -webkit-text-stroke-color: red;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    right: 20px;
+}
+
+.main-header-two {
+    font-size: 5vw;
+    color: white;
     margin-bottom:0%;
     margin-top:0%;
-    margin-left: auto;
-    margin-right: 20px;
-    
+    display: flex;
+    font-family: "Bahnschrift";
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
 
 }
+
 
 .main-content{
     padding-top: 0;
@@ -39,8 +88,27 @@
     margin-bottom:0%;
     display:flex;
     flex-direction: column;
+
     
 }
+
+.background{
+    background-image: url("../../images/paper.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position:bottom left;
+    background-size:contain;
+    width: 75vw;
+    height: inherit;
+    display: flex;
+    max-height: 56.25vw;;
+    height: 800px;
+    
+    width:75vw;
+
+
+}
+
 
 .button-component{
     margin-left: auto;
@@ -50,4 +118,18 @@
 
 .button{
     border-radius: 15px;
+}
+
+.overlay{
+    display:flex;
+    margin-right:auto;
+    position: absolute;
+    border:top 35%;
+    margin-top: 5%;;
+}
+
+.overlay-image{
+    position: absolute;
+    max-width: 50vw;
+    object-fit: cover;;
 }
