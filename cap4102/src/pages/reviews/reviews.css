@@ -8,11 +8,11 @@
     min-height: 100vh; 
 }
   
-.directions-container {
+.reviews-container {
     width: 75%;
 }
   
-.directions-header {
+.reviews-header {
     background-color: #ffffff;
     background-size: cover;
     background-image: url("../../images/food_truck_1.jpg");
@@ -25,24 +25,24 @@
     align-items: center;  
 }
   
-.directions-header-text {
+.reviews-header-text {
     font-size: 100px;
     color: white;
     -webkit-text-stroke: 4px #eb2302;
 }
 
-.directions-subtitle {
+.reviews-subtitle {
     font-size: 50px;
     color: white;
     -webkit-text-stroke: 2px #eb2302;
 }
   
-.directions-body {
+.reviews-body {
     background-color: #ebebc7;
     padding: 10px;
 }
 
-.directions-text-section {
+.reviews-text-section {
     display: flex; 
     flex-direction: row;
     justify-content: center;
@@ -52,20 +52,20 @@
     padding-right: 15px;
 }
   
-.directions-body-title {
+.reviews-body-title {
     color: #6a0906;
     font-size: 30px;
     font-weight: bold;
 }
 
-.directions-body-text {
+.reviews-body-text {
     font-size: 18px;
     padding: 10px;
     text-align: left;
 }
       
   
-.img-directions {
+.img-reviews {
     width: 55%;
     border-radius: 15px;
     border: 5px solid white;

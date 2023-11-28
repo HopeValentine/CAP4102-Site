@@ -24,7 +24,7 @@ export default function Main() {
 
                     <Button location="MENU"/>
                     <Button action="yes" location="CALL NOW!"/>
-                    <Button action="yes" location="BUSINESS HOURS"/>
+                    <Button action="hours" location="BUSINESS HOURS"/>
                     </div>
 
             </div>

@@ -13,7 +13,7 @@ export const Navbar = () => {
             <div className="navbar-links">
                 <NavLink to="/about" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>ABOUT</NavLink>
                 <NavLink to="/menu" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>MENU</NavLink>
-                <NavLink to="/reviews" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>REVIEWS</NavLink>
+                <Link to="https://www.yelp.com/biz/di-da-pensacola-4" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>REVIEWS</Link>
                 <NavLink to="/directions" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>DIRECTIONS</NavLink>
                 <NavLink to="/contact" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>CONTACT US</NavLink>
             </div>
