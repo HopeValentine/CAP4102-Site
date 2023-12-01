@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/CAP4102-Site/static/css/main.78e6b8f3.css",
+    "main.js": "/CAP4102-Site/static/js/main.736fe051.js",
+    "static/js/787.6b57bf9d.chunk.js": "/CAP4102-Site/static/js/787.6b57bf9d.chunk.js",
+    "static/media/paper.png": "/CAP4102-Site/static/media/paper.4ca2b0eeb44cb2c7ed4b.png",
+    "static/media/mainpage_food.png": "/CAP4102-Site/static/media/mainpage_food.8bd3a065829f33b6a50c.png",
+    "static/media/food_truck.jpg": "/CAP4102-Site/static/media/food_truck.80a2fff89d4ad2c42eb0.jpg",
+    "static/media/BAHNSCHRIFT.TTF": "/CAP4102-Site/static/media/BAHNSCHRIFT.23b347dac5478c8b4500.TTF",
+    "static/media/sesame_balls.jpg": "/CAP4102-Site/static/media/sesame_balls.ea7bcc78411b94ee6036.jpg",
+    "static/media/food_truck_1.jpg": "/CAP4102-Site/static/media/food_truck_1.1526f2486d72da0d0638.jpg",
+    "static/media/pork_chops.jpg": "/CAP4102-Site/static/media/pork_chops.25fdad3f6d5b4a241307.jpg",
+    "static/media/footer_logo.png": "/CAP4102-Site/static/media/footer_logo.49905c8d69ea96cc75ca.png",
+    "static/media/owner_2.jpg": "/CAP4102-Site/static/media/owner_2.12f88e1eb0a64b0ee2ff.jpg",
+    "static/media/banh_mi_pork.jpg": "/CAP4102-Site/static/media/banh_mi_pork.0d5c05e1fb68b8a650d4.jpg",
+    "static/media/banh_mi_chicken.jpg": "/CAP4102-Site/static/media/banh_mi_chicken.637023c4a1a52b8a3bd7.jpg",
+    "static/media/rice_box_pork_chop.jpg": "/CAP4102-Site/static/media/rice_box_pork_chop.e08eade93fb53b5cad1f.jpg",
+    "static/media/header_logo_1.png": "/CAP4102-Site/static/media/header_logo_1.eb43034768c188291bd1.png",
+    "static/media/owner.jpg": "/CAP4102-Site/static/media/owner.d0df43a767b2d24e6ae5.jpg",
+    "static/media/noodles.jpg": "/CAP4102-Site/static/media/noodles.63590ab0bd9028ca47b8.jpg",
+    "static/media/fried_rice.jpg": "/CAP4102-Site/static/media/fried_rice.13ffd268881379bd8488.jpg",
+    "static/media/eggrolls.JPG": "/CAP4102-Site/static/media/eggrolls.dde82b31bdd5f9845f71.JPG",
+    "static/media/rice_box_red_pork.jpg": "/CAP4102-Site/static/media/rice_box_red_pork.80f476dc780c25614555.jpg",
+    "static/media/rice_box_chicken.jpg": "/CAP4102-Site/static/media/rice_box_chicken.ff4e817e8a83785ab58a.jpg",
+    "static/media/spring_rolls_shrimp.jpg": "/CAP4102-Site/static/media/spring_rolls_shrimp.f1de76d53b85be13a094.jpg",
+    "static/media/instagram.png": "/CAP4102-Site/static/media/instagram.edb90ecc706a7a25542b.png",
+    "static/media/fried_fish.jpg": "/CAP4102-Site/static/media/fried_fish.61a982358f661128c0d2.jpg",
+    "static/media/facebook.png": "/CAP4102-Site/static/media/facebook.b293d5363351752caf25.png",
+    "index.html": "/CAP4102-Site/index.html",
+    "main.78e6b8f3.css.map": "/CAP4102-Site/static/css/main.78e6b8f3.css.map",
+    "main.736fe051.js.map": "/CAP4102-Site/static/js/main.736fe051.js.map",
+    "787.6b57bf9d.chunk.js.map": "/CAP4102-Site/static/js/787.6b57bf9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78e6b8f3.css",
+    "static/js/main.736fe051.js"
+  ]
+}
