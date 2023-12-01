@@ -23,6 +23,7 @@ function App() {
           <Route path="/contact" element={<ContactUs></ContactUs>}/>
           <Route path="/directions" element={<Directions></Directions>}/>
           <Route path="/Reviews" element={<Reviews></Reviews>}/>
+          <Route path="/*" element={<Main/>}/>
         </Routes>
         <Footer />
       </Router>
