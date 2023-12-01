@@ -11,11 +11,11 @@ export const Navbar = () => {
                 <img src={logo} alt="Logo" className="img-header-logo" />
             </Link>
             <div className="navbar-links">
-                <NavLink to="/about" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>ABOUT</NavLink>
-                <NavLink to="/menu" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>MENU</NavLink>
-                <Link to="https://www.yelp.com/biz/di-da-pensacola-4" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>REVIEWS</Link>
-                <NavLink to="/directions" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>DIRECTIONS</NavLink>
-                <NavLink to="/contact" activeClassName="active-link" style={{textDecoration: 'none', color:'white'}}>CONTACT US</NavLink>
+                <NavLink to="/about" className="active-link" style={{textDecoration: 'none', color:'white'}}>ABOUT</NavLink>
+                <NavLink to="/menu" className="active-link" style={{textDecoration: 'none', color:'white'}}>MENU</NavLink>
+                <Link to="https://www.yelp.com/biz/di-da-pensacola-4" className="active-link" style={{textDecoration: 'none', color:'white'}}>REVIEWS</Link>
+                <NavLink to="/directions" className="active-link" style={{textDecoration: 'none', color:'white'}}>DIRECTIONS</NavLink>
+                <NavLink to="/contact" className="active-link" style={{textDecoration: 'none', color:'white'}}>CONTACT US</NavLink>
             </div>
         </div>
     </div>
