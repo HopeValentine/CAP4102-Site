@@ -16,6 +16,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
+          <Route path="/CAP4102-Site/" element={<Main/>}/>
           <Route path="/" element={<Main/>}/>
           <Route path="/menu" element={<Menu></Menu>}/>
           <Route path="/about" element={<About></About>}/>
