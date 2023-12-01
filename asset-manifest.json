@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CAP4102-Site/static/css/main.78e6b8f3.css",
-    "main.js": "/CAP4102-Site/static/js/main.736fe051.js",
+    "main.js": "/CAP4102-Site/static/js/main.f48034d6.js",
     "static/js/787.6b57bf9d.chunk.js": "/CAP4102-Site/static/js/787.6b57bf9d.chunk.js",
     "static/media/paper.png": "/CAP4102-Site/static/media/paper.4ca2b0eeb44cb2c7ed4b.png",
     "static/media/mainpage_food.png": "/CAP4102-Site/static/media/mainpage_food.8bd3a065829f33b6a50c.png",
@@ -28,11 +28,11 @@
     "static/media/facebook.png": "/CAP4102-Site/static/media/facebook.b293d5363351752caf25.png",
     "index.html": "/CAP4102-Site/index.html",
     "main.78e6b8f3.css.map": "/CAP4102-Site/static/css/main.78e6b8f3.css.map",
-    "main.736fe051.js.map": "/CAP4102-Site/static/js/main.736fe051.js.map",
+    "main.f48034d6.js.map": "/CAP4102-Site/static/js/main.f48034d6.js.map",
     "787.6b57bf9d.chunk.js.map": "/CAP4102-Site/static/js/787.6b57bf9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78e6b8f3.css",
-    "static/js/main.736fe051.js"
+    "static/js/main.f48034d6.js"
   ]
 }
